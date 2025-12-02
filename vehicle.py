@@ -2,7 +2,7 @@ import pytest
 def vehicle_registration(number,owner_name,vehicle_type,manifacture):
     result=(
         f"Vehicle number:{number}\n"
-        f"vehicle owner name:{vehicle_name}\n"
+        f"vehicle owner name:{owner_name}\n"
         f"vehicle type:{vehicle_type}\n"
         f"year of manufacture:{manifacture}"
     )
