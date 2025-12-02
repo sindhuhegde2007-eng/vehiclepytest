@@ -2,9 +2,9 @@ from vehicle import vehicle_registration
 
 def test_vehicle_registration():
     expected_output=(
-        "Product Name:TV\n"
-        "Product ID:S2345\n"
-        "Quantity:1\n" 
-        "Price:40000"
+      Vehicle number="KA31N2881"
+   Vehicle owner name="sara"
+    Vehicle type="car"
+    Year of manifacture=2015
     )
-    assert vehicle_registration("TV","S2345",1,40000)==expected_output
+    assert vehicle_registration("KA31N2881","Sara","car",2015)==expected_output
