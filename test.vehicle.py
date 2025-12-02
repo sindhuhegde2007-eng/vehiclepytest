@@ -7,4 +7,4 @@ def test_vehicle_registration():
     Vehicle type="car"
     Year of manifacture=2015
     )
-    assert vehicle_registration("KA31N2881","Sara","car",2015)==expected_output
+    assert vehicle_registration("KA31N2881","sara","car",2015)==expected_output
